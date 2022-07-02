@@ -5,7 +5,7 @@ services:
     restart: always
     image: jenkins/jenkins:lts
     ports:
-      - 8888:8888
+      - 8080:8080
     volumes:
       - jenkins-home:/var/jenkins_home
 
